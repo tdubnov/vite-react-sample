@@ -15,16 +15,7 @@ function Avatar(props: AvatarProps) {
 
       <div className='avatar__photo mr-20'>
         <img
-          className='
-          rounded-full
-          hover:scale-x-110
-          hover:scale-y-110
-          animation-delay: 999s;
-          hover:animate-
-          bg-gradient-to-r 
-          p-[6px] 
-          from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
-          '
+          className='rounded-full animate-spin hover:scale-x-110 hover:scale-y-110 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]'
           src="./src/assets/photo.png"
         />
       </div>
